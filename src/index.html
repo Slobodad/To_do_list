@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- End favicon -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <!-- main -->
+    <main class="main" id="main">
+        <!-- header -->
+        <header class="header" id="header">
+            <h1 class="title">
+                My to do list
+            </h1>
+        </header>
+        <!-- End header -->
+        <section class="list">
+            <div></div>
+            <div class="list-header">
+                <p class="list-title">My tasks</p>
+                <button class="list-btn" id="js-add-btn">+Add new</button>
+            </div>
+            <div class="todo-box">
+                <ul class="todo-list" id="js-list">
+                    <!-- <li class="todo-item">
+                        <input class="checkbox" type="checkbox" id="js-checkbox">
+                        <p class="todo-text">Lorem ipsum dolor sit amet.</p>
+                        <button class="btn todo-edit"><i class="fas fa-edit"></i></button>
+                        <button class="btn todo-del"><i class="fas fa-trash-alt"></i></button>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- End main -->
+    <!-- Popup -->
+    <div class="popup" id="js-popup">
+        <div class="popup-box">
+            <h2 class="popup-title">New task</h2>
+            <form class="popup-form">
+                <input type="text" placeholder="Your task" class="form-field" id="js-value">
+                <button class="popup-add" id="js-task-add">Add</button>
+                <button class="popup-close" id="js-popup-close"><i class="fas fa-times"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- JS -->
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>
